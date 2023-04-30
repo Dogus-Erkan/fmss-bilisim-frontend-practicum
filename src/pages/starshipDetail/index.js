@@ -147,7 +147,7 @@ const StarshipDetail = () => {
                     <tr>
                       <td className="font-bold pr-4">
                         <span className="border-b-2 border-yellow-400">
-                          Hyperdrive Rating::
+                          Hyperdrive Rating:
                         </span>
                       </td>
                       <td>{starshipDetail[0].hyperdrive_rating}</td>
