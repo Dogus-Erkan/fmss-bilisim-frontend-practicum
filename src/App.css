@@ -1,0 +1,42 @@
+@import url("https://fonts.cdnfonts.com/css/death-star");
+
+* {
+  transition: background-color 0.5s ease
+}
+
+body {
+  background-image: url("https://cdn.wallpapersafari.com/1/97/co341S.jpg");
+  overflow-x: hidden;
+}
+
+.font-star-wars {
+  font-family: "Death Star", sans-serif;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.spinner img {
+  animation: spin 1s linear infinite;
+  width: 13rem;
+  margin-bottom: 3rem;
+}
+
+.spinner h1 {
+  font-family: "Death Star", sans-serif;
+  font-size: 3rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
